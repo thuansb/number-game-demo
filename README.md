@@ -3,6 +3,14 @@ Phoenix socket demo: client code
 
 
 # Backend code
+
+user_socket.ex
+```
+## Transports
+  transport :websocket, Phoenix.Transports.WebSocket
+```
+
+room_channel.ex
 ```
 defmodule RcsWeb.RoomChannel do
   use Phoenix.Channel
