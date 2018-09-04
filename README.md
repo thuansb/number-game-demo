@@ -1,7 +1,8 @@
 # number-game-demo
-Phoenix socket demo
+Phoenix socket demo: client code
 
-# Phoenix code
+
+# Backend code
 ```
 defmodule RcsWeb.RoomChannel do
   use Phoenix.Channel
